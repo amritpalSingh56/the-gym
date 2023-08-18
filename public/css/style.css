@@ -1,4 +1,4 @@
-.navbar{
+/* .navbar{
     height: 100px;
     width: auto;
     background-color: black;
@@ -19,4 +19,36 @@ a{
 }
 .first{
     margin-inline: 2px;
+} */
+*{
+    margin: 0;
+    padding: 0;
 }
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    gap: 1em;
+}
+.navbar > div{
+    display: flex;
+
+}
+.navbar > ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 1em;
+}
+
+.navbar > ul > li{
+text-decoration: none;
+}
+
+.navbar > ul > li > a{
+    text-decoration: none;
+    }
