@@ -1,0 +1,22 @@
+.navbar{
+    height: 100px;
+    width: auto;
+    background-color: black;
+    margin-top: -16px;
+    margin-left: -8px;
+    margin-right: -8px;
+    color: white;
+
+}
+li{
+    display: inline;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+
+}
+.first{
+    margin-inline: 2px;
+}
