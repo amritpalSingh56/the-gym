@@ -1,31 +1,8 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
-.navbar{
-    height: 100px;
-    width: auto;
-    background-color: black;
-    margin-top: -16px;
-    margin-left: -8px;
-    margin-right: -8px;
-    color: white;
 
-}
-li{
-    display: inline;
-    margin-right: 10px;
-}
-a{
-    text-decoration: none;
-    color: white;
-
-}
-.first{
-    margin-inline: 2px;
-} 
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
     display: flex;
@@ -34,6 +11,8 @@ a{
     justify-content: center;
     background-color: black;
     gap: 1em;
+    position: sticky;
+    top: 0;
 }
 .navbar > div{
     display: flex;
@@ -54,39 +33,31 @@ text-decoration: none;
 
 .navbar > ul > li > a{
     text-decoration: none;
+    color: white;
     }
-.hero-sec{
-    background-image: url("./hero.jpg");
-    background-size: cover;
-    height: 600px;  
-    color: red; 
-}
-.heading{
-    color: red;
-    /*display: flex;
-    justify-content: center;*/
-    text-align: center;
 
-
-}   
-h2{
-    color: black;
-    font-weight: 2px;
+.footerContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        background-color: black;
+        padding: 25px 0;
 }
-p{
-    color: black;
-    font-size: 20px;
-    font-style: italic;
+.footerContainer > ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        list-style: none;
+        color: red;
 }
-.para-container{
-    width: 1000px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-left: 200px;
-    
+.footerContainer > ul > li{
 }
-.paragraph{
-    text-align: justify;
+.footerContainer > ul > li > i{
+        font-size: 35px;
+}
+.footerContainer > p{
+        color: white;
 }
