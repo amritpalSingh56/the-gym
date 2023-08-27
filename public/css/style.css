@@ -51,7 +51,7 @@ text-decoration: none;
         justify-content: center;
         gap: 40px;
         list-style: none;
-        color: red;
+        color: rgba(236, 2, 2, 0.925);
 }
 .footerContainer > ul > li{
 }
