@@ -1,6 +1,6 @@
 .hero-sec{
     height: 400px;
-    background-image: url("./faq.jpg");
+    background-image: url("../Image/faq.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 }
