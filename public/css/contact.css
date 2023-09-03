@@ -1,0 +1,58 @@
+.banner{
+    background-image: url("../Image/contact.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+.address{
+  display: inline-block; 
+  width: 50%; 
+  height: 500px; 
+  line-height: 50px; 
+  text-align: center;
+    
+
+
+
+}
+.contact-us{
+    display: inline-block;
+    width: 48.7%; 
+    height: 500px; 
+    line-height: 50px; 
+    text-align: center; 
+    
+}
+.icon{
+    margin-bottom: -50px;
+    margin-right: 250px;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.address-content{
+    margin-bottom: 250px;
+}
+.call-icon{
+    margin-bottom: -150px;
+    margin-top: -260px;
+    margin-left: -230px;
+
+}
+.mobile-number{
+    margin-top: 100px;
+}
+.mobile-icon{
+    margin-left: -229px;
+}
+.mobile-number2{
+    margin-top: -52px;
+}
+.message-icon{
+    margin-left: -232px;
+    margin-top: -50px;
+}
+.message-content{
+    margin-top: -53px;
+}
