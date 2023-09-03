@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
-    <link rel="stylesheet" href="../public/css/style.css">
-    <link rel="stylesheet" href="../public/css/contact.css">
-
-</head>
-<body>
+    <link rel="stylesheet" href="../public/css/style.css" />
+    <link rel="stylesheet" href="../public/css/contact.css" />
+  </head>
+  <body>
     <header class="navbar">
-        <div>
-            <a href="/">
-                <img src="../public/Image/thegym-logo (1).jpg" alt="the gym" srcset="">
-            </a>
-        </div>
-        <ul>
+      <div>
+        <a href="/">
+          <img
+            src="../public/Image/thegym-logo (1).jpg"
+            alt="the gym"
+            srcset=""
+          />
+        </a>
+      </div>
+      <ul>
         <li><a href="/">HOME</a></li>
         <li><a href="../pages/About.html">ABOUT</a></li>
         <li><a href="../pages/find_the_gym.html">FIND THE GYM</a></li>
@@ -26,66 +29,119 @@
         <li><a href="../pages/contact.html">CONTACT</a></li>
       </ul>
     </header>
-    <div class="banner">
-    </div>
-    <span class="address">
+    <div class="banner"></div>
+    <div class="container">
+        <span class="addressContainer">
         <div class="heading">
-            <h1>Address</h1>
+          <h2>Address</h2>
         </div>
-        <div class="icon">
-            <i class="fa-solid fa-location-dot"></i> 
+        <ul class="address">
+          <li class="details">
+            <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="content">
+              <div class="mainContent">Tucson Fitness Pvt Ltd</div>
+              <div class="subContent">
+                J-13/66, Rajouri Garden Next to Kotak Mahindra Bank New
+                Delhi-110027
+              </div>
+            </div>
+          </li>
+          <li class="details">
+            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="content">+91.11.45535888</div>
+          </li>
+          <li class="details">
+            <div class="icon"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="content">+91.9811594828</div>
+          </li>
+          <li class="details">
+            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="content">info@thegym.in</div>
+          </li>
+          <li class="details">
+            <div class="icon"><i class="fa-solid fa-globe"></i></div>
+            <div class="content">www.thegym.in</div>
+          </li>
+        </ul>
+        <!-- <div class="icon">
+          <i class="fa-solid fa-location-dot"></i>
         </div>
         <div class="address-content">
-            <ul>
-              <li><i><b><p>Tuscon fitness Pvt Ltd</p></b></i></li>
-              <li>J-13/66, Rajouri Garden</li>
-              <li>Next to Kotak Mahindra Bank</li>
-              <li>New DelNhi-110027</li>
-            </ul> 
+          <ul>
+            <li>
+              <i
+                ><b><p>Tuscon fitness Pvt Ltd</p></b></i
+              >
+            </li>
+            <li>J-13/66, Rajouri Garden</li>
+            <li>Next to Kotak Mahindra Bank</li>
+            <li>New DelNhi-110027</li>
+          </ul>
         </div>
         <div class="number">
-            <div class="call-icon">
-                <i class="fa-solid fa-phone"></i>
-            </div>
-            <div class="mobile-number">
-                <p>+91.11.45535888</p>
-            </div>
+          <div class="call-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="mobile-number">
+            <p>+91.11.45535888</p>
+          </div>
         </div>
         <div class="mobile">
-            <div class="mobile-icon">
-                <i class="fa-solid fa-mobile"></i>
-            </div>
-            <div class="mobile-number2">
-                <p>+91.9811594828</p>
-            </div>
-        </div>\
+          <div class="mobile-icon">
+            <i class="fa-solid fa-mobile"></i>
+          </div>
+          <div class="mobile-number2">
+            <p>+91.9811594828</p>
+          </div>
+        </div>
         <div class="message">
-            <div class="message-icon">
-                <i class="fa-solid fa-message"></i>
-            </div>
-            <div class="message-content">
-                <p>info@thegym.in</p>
-            </div>
-        </div>
-    </span>
-    <span class="contact-us">
+          <div class="message-icon">
+            <i class="fa-solid fa-message"></i>
+          </div>
+          <div class="message-content">
+            <p>info@thegym.in</p>
+          </div>
+        </div> -->
+        </span>
+        <span class="contactUsContainer">
         <div class="heading">
-            <h1>Contact Us</h1>
+          <h2>Contact Us</h2>
         </div>
-    </span>
+        <form class="contact-us">
+          <div class="nameContainer">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div class="contactContainer">
+            <label for="contact">Contact:</label>
+            <input type="text" id="contact" name="contact"/>
+          </div>
+          <div class="emailContainer">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" />
+          </div>
+          <div class="messageContainer">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message"/>
+          </div>
+          <div class="submitBtn">
+             <button type="submit" value="Submit" >Submit</button>
+          </div>
+        </form>
+        </span>
+    </div>
     <footer class="footerContainer">
-        <ul>
-            <li><i class="fa-brands fa-facebook"></i></li>
-            <li><i class="fa-brands fa-twitter"></i></li>
-            <li><i class="fa-brands fa-tiktok"></i></li>
-            <li><i class="fa-brands fa-instagram"></i></li>
-        </ul>
-        <p>The Gym © 2019 Tucson Fitness Pvt. Ltd.</p>
+      <ul>
+        <li><i class="fa-brands fa-facebook"></i></li>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-tiktok"></i></li>
+        <li><i class="fa-brands fa-instagram"></i></li>
+      </ul>
+      <p>The Gym © 2019 Tucson Fitness Pvt. Ltd.</p>
     </footer>
-    <script src="https://kit.fontawesome.com/e3c371283b.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/e3c371283b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
-
-
-
-

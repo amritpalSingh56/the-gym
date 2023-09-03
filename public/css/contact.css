@@ -1,21 +1,17 @@
-.banner{
-    background-image: url("../Image/contact.jpg");
-    height: 400px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
+.banner {
+  background-image: url("../Image/contact.jpg");
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  object-fit: cover;
 }
-.address{
+/* .address{
   display: inline-block; 
   width: 50%; 
   height: 500px; 
   line-height: 50px; 
   text-align: center;
-    
-
-
-
 }
 .contact-us{
     display: inline-block;
@@ -55,4 +51,108 @@
 }
 .message-content{
     margin-top: -53px;
+} */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container > .addressContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 49%;
+}
+.addressContainer > .heading{
+    font-size: larger;
+    font-weight: 600;
+}
+.addressContainer > .heading > h2{
+
+}
+.addressContainer >.address{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.addressContainer >.address > .details{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+.addressContainer >.address > .details >.icon{
+    
+}
+.addressContainer >.address > .details >.icon > i{
+    
+}
+.addressContainer >.address > .details >.content{
+    
+}
+.addressContainer >.address > .details >.content > .mainContent{
+    font-size: larger;
+    font-weight: 600;
+    font-family: math;
+}
+.addressContainer >.address > .details >.content > .subContent{
+    
+}
+.container > .contactUsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 49%;
+}
+.contactUsContainer > .heading {
+    font-size: larger;
+    font-weight: 600;
+}
+.contactUsContainer > .heading > h2 {
+
+}
+.contactUsContainer >.contact-us{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contactUsContainer >.contact-us > .nameContainer{
+    
+}
+.contactUsContainer >.contact-us > .nameContainer > label{
+    
+}
+.contactUsContainer >.contact-us > .nameContainer > input{
+    
+}
+.contactUsContainer >.contact-us > .contactContainer{
+    
+}
+.contactUsContainer >.contact-us > .contactContainer > label{
+    
+}
+.contactUsContainer >.contact-us > .contactContainer > input{
+    
+}
+.contactUsContainer >.contact-us > .emailContainer{
+    
+}
+.contactUsContainer >.contact-us > .emailContainer > label{
+    
+}
+.contactUsContainer >.contact-us > .emailContainer > input{
+    
+}
+.contactUsContainer >.contact-us > .messageContainer{
+    
+}
+.contactUsContainer >.contact-us > .messageContainer > label{
+    
+}
+.contactUsContainer >.contact-us > .messageContainer > input{
+    
+}
+.contactUsContainer >.contact-us > .submitBtn{
+    
+}
+.contactUsContainer >.contact-us > .submitBtn > button{
+    
 }
