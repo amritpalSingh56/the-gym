@@ -6,52 +6,6 @@
   background-position: center;
   object-fit: cover;
 }
-/* .address{
-  display: inline-block; 
-  width: 50%; 
-  height: 500px; 
-  line-height: 50px; 
-  text-align: center;
-}
-.contact-us{
-    display: inline-block;
-    width: 48.7%; 
-    height: 500px; 
-    line-height: 50px; 
-    text-align: center; 
-    
-}
-.icon{
-    margin-bottom: -50px;
-    margin-right: 250px;
-    font-size: 25px;
-    margin-left: 40px;
-}
-.address-content{
-    margin-bottom: 250px;
-}
-.call-icon{
-    margin-bottom: -150px;
-    margin-top: -260px;
-    margin-left: -230px;
-
-}
-.mobile-number{
-    margin-top: 100px;
-}
-.mobile-icon{
-    margin-left: -229px;
-}
-.mobile-number2{
-    margin-top: -52px;
-}
-.message-icon{
-    margin-left: -232px;
-    margin-top: -50px;
-}
-.message-content{
-    margin-top: -53px;
-} */
 .container {
   display: flex;
   justify-content: space-evenly;
@@ -60,11 +14,12 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    width: 49%;
+    width: 30%;
 }
 .addressContainer > .heading{
     font-size: larger;
     font-weight: 600;
+    margin-top: 25px;
 }
 .addressContainer > .heading > h2{
 
@@ -100,22 +55,42 @@
     display: flex;
     flex-direction: column;
     gap: 1em;
-    width: 49%;
-}
+    width: 40%;
+} 
 .contactUsContainer > .heading {
     font-size: larger;
     font-weight: 600;
+    margin-top: 25px;
 }
 .contactUsContainer > .heading > h2 {
+    
 
 }
 .contactUsContainer >.contact-us{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
+.contactUsContainer >.contact-us > div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+.contactUsContainer >.contact-us > div > label{
+
+}
+.contactUsContainer >.contact-us > div > input , textarea{
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: inset -3px -6px 1px 1px #ffa8a8;
+    border: 2px solid pink;
+
+}
+
 .contactUsContainer >.contact-us > .nameContainer{
-    
+    width: 49%;
 }
 .contactUsContainer >.contact-us > .nameContainer > label{
     
@@ -124,7 +99,7 @@
     
 }
 .contactUsContainer >.contact-us > .contactContainer{
-    
+    width: 49%;
 }
 .contactUsContainer >.contact-us > .contactContainer > label{
     
@@ -147,12 +122,27 @@
 .contactUsContainer >.contact-us > .messageContainer > label{
     
 }
-.contactUsContainer >.contact-us > .messageContainer > input{
+.contactUsContainer >.contact-us > .messageContainer > textarea{
     
 }
 .contactUsContainer >.contact-us > .submitBtn{
-    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: flex-end;
+    margin-bottom: 25px; 
 }
 .contactUsContainer >.contact-us > .submitBtn > button{
     
+    padding: 13px 30px;
+    border-radius: 30px;
+    background: #ffaeae;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 2px solid pink;
+    box-shadow: 6px 7px 3px 1px #ff5170;
+}
+
+
 }
