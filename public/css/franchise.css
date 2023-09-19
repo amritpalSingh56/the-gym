@@ -10,23 +10,29 @@
     position: relative;
 }
 .description{
-    height: 90em;
+    /* height: 90em;
     padding-left: 2em;
     padding-right: 15em;
-    padding-left: 15em;
+    padding-left: 15em; */
+    width: 75%;
+    margin: auto;
+
 
 }
 .heading{
     color: #fd3c3d;
     font-size: 2.8em;
     text-align: center;
-    padding: 1em;
+    padding: 0.5em 0;
 }
 .sub-heading{
     color: #212529;
     font-size: 1.7em;
     text-align: center;
 
+}
+.main-content > ul{
+    list-style: inside;
 }
 .main-content > p{
     display: flex;
@@ -36,23 +42,58 @@
 }
 .card-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
-    height: 20%;
+    margin: 1em 0;
+}
+.card-container  > div{
+    width: 24%;
+    box-shadow: 1px 2px 5px 0px gray;
+    border-radius: 0.5em;
+    overflow: hidden;
+    transition: ease-in-out 1s;
+    display: flex;
+    flex-direction: column;
+}
+.card-container  > div:hover{
+    box-shadow: 3px 4px 5px 0px gray;
+    transition: ease-in-out 1s;
+
+}
+.card-container  > div  > div > img{
+    width: 100%;
+    height: 100%;
+}
+.card-container  > div  a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: black;
+    width: 100%;
+    transition: ease-in-out 1.5s;
+    padding: 1em 0;
+
+}
+.card-container  > div a:hover{
+    text-decoration: underline;
+    color: white;
+    background-color: black;
+    transition: ease-in-out 1.5s;
 
 }
 .card-container > .box1{
-    width: 25%;
-    background-color: blue;
+    /* background-color: blue; */
 
 }
 .card-container > .box2{
-    width: 25%;
-    background-color: yellow;
+    /* background-color: yellow; */
     
 }
 .card-container > .box3{
-    width: 25%;
-    background-color: orangered;
+    /* background-color: orangered; */
+    
+}
+.card-container > .box4{
+    /* background-color: orangered; */
     
 }
